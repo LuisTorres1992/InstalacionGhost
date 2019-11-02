@@ -108,3 +108,30 @@ docker exec -it  ubuntu-cert bash
 git init
 ls
 docker exec -it  ubuntu-cert bash
+git status
+docker ps -a
+docker exec -it  ubuntu-cert bash
+git init
+git status
+git add .
+git status
+git commit -m "plantilla HTML5"
+git remote add origin git@github.com: LuisTorres1992 / PlantilaHTML5.git
+git push -u origin master
+git status
+git remote add origin git@github.com:LuisTorres1992/PlantilaHTML5.git
+git push -u origin master
+sudo apt-get install postfix
+sudo apt-get install mailutils
+echo "prueba" | mail -s "desde servidor" luis.torres@pucese.edu.ec
+clear
+docker ps -a
+clear
+docker ps
+docker exec -it ubuntu-cert bash
+docker -a
+docker ps -a
+docker exec -it ubuntu-cert bash
+echo "hola" | mail -s "importante" luisktrakt@gmail.com
+echo "Test Email message body" | mail -s "Email test subject" luisktrakt@gmail.com
+docker exec -it ubuntu-cert bash
